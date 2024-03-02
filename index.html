@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Clone App | FreeProjects1</title>
+    <meta
+      name="keywords"
+      content="instagram clone using html css and javascript, what is instagram clone, instagram clone html css js, django instagram clone, instagram clone tutorial, instagram clones, instagram clone, instagram clone no code, instagram clone script, instagram clone open source, javascript clone instance, instagram clone sites, instagram web clone, instagram clone site, clone instagram account"
+    />
+    <meta
+      name="description"
+      content="The Instagram Clone App is a powerful web application built with HTML, CSS, and Javascript. It allows users to create a replica of the popular Instagram platform, allowing them to post photos, videos, and stories, follow other users, and comment on their posts. "
+    />
+    <link rel="shortcut icon" href="images/OIP.jpeg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Load page -->
+    <script>
+      window.onload = function () {
+        document.querySelector(".loader").style.display = "none";
+        document.querySelector(".container").style.display = "block";
+      };
+      $(window).load(function () {
+        $(".loader").fadeOut();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="loader"></div>
+
+    <div class="container">
+      <!-- Reels section -->
+      <section class="section reels_section active">
+        <div class="reels-container">
+          <div class="reels_video">
+            <div class="head-part">
+              <h4>Reels</h4>
+              <i class="bi bi-camera"></i>
+            </div>
+
+            <div class="vid">
+              <video src="videos/Reelvideo-17231.mp4"></video>
+              <div class="options">
+                <div>
+                  <i class="bi bi-heart"></i>
+                  <span>17.5k</span>
+                </div>
+                <div>
+                  <i class="bi bi-chat"></i>
+                  <span>12.8k</span>
+                </div>
+                <div>
+                  <i class="bi bi-send"></i>
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+              </div>
+              <div class="like_counter"></div>
+              <div class="comment_counter"></div>
+
+              <div class="profile">
+                <div class="row"></div>
+                <div class="row row2"></div>
+              </div>
+            </div>
+            <div class="vid">
+                <video src="videos/Reelvideo-17231.mp4"></video>
+                <div class="options">
+                  <div>
+                    <i class="bi bi-heart"></i>
+                    <span>17.5k</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-chat"></i>
+                    <span>12.8k</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-send"></i>
+                  </div>
+                  <i class="bi bi-three-dots-vertical"></i>
+                </div>
+                <div class="like_counter"></div>
+                <div class="comment_counter"></div>
+  
+                <div class="profile">
+                  <div class="row"></div>
+                  <div class="row row2"></div>
+                </div>
+              </div>
+              <div class="vid">
+                <video src="videos/Reelvideo-17231.mp4"></video>
+                <div class="options">
+                  <div>
+                    <i class="bi bi-heart"></i>
+                    <span>17.5k</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-chat"></i>
+                    <span>12.8k</span>
+                  </div>
+                  <div>
+                    <i class="bi bi-send"></i>
+                  </div>
+                  <i class="bi bi-three-dots-vertical"></i>
+                </div>
+                <div class="like_counter"></div>
+                <div class="comment_counter"></div>
+  
+                <div class="profile">
+                  <div class="row"></div>
+                  <div class="row row2"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home section -->
+      <section class="section home_section"></section>
+
+      <!-- Search section -->
+      <section class="section search_section"></section>
+
+      <!-- Notification section -->
+      <section class="section notifications_section"></section>
+
+      <!-- User account section -->
+      <section class="section account_section"></section>
+
+      <!-- Footer section| -->
+      <footer>
+            <i id="home_btn" class="bi bi-house-door-fill"></i>
+            <i id="search_btn" class="bi bi-search"></i>
+            <i id="reels_btn" class="bi bi-camera-video"></i>
+            <i id="notify_btn" class="bi bi-heart"></i>
+            <img id="account_btn" src="images/OIP.jpeg" alt="" />
+
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
